@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SehirKodu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2980B9</item>
+        <item name="android:windowBackground">#FAFAFA</item>
+    </style>
+</resources>

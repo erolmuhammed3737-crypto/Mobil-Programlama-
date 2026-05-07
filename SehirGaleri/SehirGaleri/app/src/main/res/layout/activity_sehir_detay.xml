@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvSehirAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A8A"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/foto1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvBilgi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#374151"
+            android:lineSpacingMultiplier="1.3"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/foto2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvBilgi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#374151"
+            android:lineSpacingMultiplier="1.3"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/foto3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvBilgi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#374151"
+            android:lineSpacingMultiplier="1.3"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnGeri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="← Geri"
+            android:backgroundTint="#1D4ED8"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
