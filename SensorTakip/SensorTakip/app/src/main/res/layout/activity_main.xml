@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anaEkran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sensör Takip"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#1F2937"
+                android:layout_marginBottom="16dp"/>
+
+            <Button android:id="@+id/btnIvme"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="İvmeölçer" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnPusula"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Pusula" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnJiroskop"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Jiroskop" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnNem"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Nem Sensörü" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnIsik"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Işık Sensörü" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnManyetik"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Manyetometre" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnBasinc"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Basınç Sensörü" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnYakinlik"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Yakınlık Sensörü" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+            <Button android:id="@+id/btnSicaklik"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Sıcaklık Sensörü" android:layout_marginBottom="8dp"
+                android:backgroundTint="#3B82F6" android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
