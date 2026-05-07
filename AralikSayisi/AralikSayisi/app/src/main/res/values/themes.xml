@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AralikSayisi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E65100</item>
+        <item name="android:windowBackground">#FFF8F0</item>
+    </style>
+</resources>

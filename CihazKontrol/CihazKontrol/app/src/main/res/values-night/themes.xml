@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CihazKontrol" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6366F1</item>
+    </style>
+</resources>

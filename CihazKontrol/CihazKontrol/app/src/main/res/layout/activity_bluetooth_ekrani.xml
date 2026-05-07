@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8FAFC">
+
+    <Button
+        android:id="@+id/btnAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Aç"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnKapat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Kapat"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnListele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eşleşmiş Cihazlar"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnGorunur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Görünür Ol"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/cihazListesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

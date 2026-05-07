@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F8FAFC">
+
+    <Button
+        android:id="@+id/btnFotograf"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Çek"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Video Çek"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/fotografGoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <VideoView
+        android:id="@+id/videoGoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
